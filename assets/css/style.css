@@ -1,0 +1,43 @@
+
+.navbar-brand , .name{
+    font-size: 1.6rem;
+}
+.collapse{
+  max-height: 50vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.input-group-append .btn{
+  padding: .375rem .75rem;
+}
+.navbar form{
+      width: 20em;
+}
+.form-inline .input-group {
+    width: inherit;
+}
+
+@media only screen and (min-width: 1024px) {
+  .slide {
+        height: 75vh;
+        overflow: hidden;
+     }
+  .input-group{
+    width: 360px;
+  }
+}
+.slide {
+      border: 0px;
+      position: relative;
+}
+.tag {
+      float: right;
+      position: absolute;
+      top:50%;
+      right: 0;
+      z-index: 1000;
+      background-color: #fff;
+      width: 50%;
+      font-weight: bold;
+      transform: translateY(-50%);
+}

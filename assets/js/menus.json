@@ -1,0 +1,30 @@
+[
+  {
+    "name" : "Nos Pizzas",
+    "description" :"(Tomate,Fromage,origan)",
+    "plats" : [
+                {  "name" : "Classica",
+                  "description" : "(Tomate ,Fromage, Origan)",
+                  "price" : 7,
+                  "goptions":[
+                      { "name": "Taille",
+                        "obligatoire" : "1",
+                          "options" : [{
+                                  "name" : "Junior",
+                                  "cost" : "0",
+                                },{
+                                  "name" : "Senior",
+                                  "cost" : "2"
+                                },
+                                  {
+                                    "name" : "Senior",
+                                    "cost" : "2"
+                                  }]
+                      }
+
+                      ]
+                  }
+              ]
+  }
+
+]
